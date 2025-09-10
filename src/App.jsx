@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div className="page-wrapper">
+    <>
       <Header />
       <main>
         <CreateArea onAdd={addNote} />
@@ -41,7 +41,7 @@ function App() {
         </div>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 
